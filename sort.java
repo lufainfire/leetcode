@@ -1,14 +1,14 @@
 package leetcode;
 
-public class bubblesort {
+public class sort {
     public static void main(String[] args) {
         int [] a = {1,5,3,6};
-        sort(a);
+        bubblesort(a);
         for(int i : a){
             System.out.println(i);
         }
     }
-    public static int[] sort(int [] a){
+    public static int[] bubblesort(int [] a){
         int counter=1;
         int size=a.length;
         while (true){
